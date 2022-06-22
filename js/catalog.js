@@ -19,7 +19,7 @@ $(document).ready(function () {
         var price = crearTagPrecio(data.variants);
         var cardProduct = $('<a>')
             .attr('class', 'card col-md-3 m-3 p-2')
-            .attr('href', '/product.html?producto=' + encodeURIComponent(JSON.stringify(data)))
+            .attr('href', 'product.html?producto=' + encodeURIComponent(JSON.stringify(data)))
             .append(photo)
             .append(brand)
             .append(title)
