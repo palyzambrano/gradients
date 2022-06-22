@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "photo": "https://images.unsplash.com/photo-1581182800629-7d90925ad072?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        "date" :"Mayo 26, 2022",
+        "title" :"Cuidar tu piel de las bajas temperaturas",
+        "excerpt" :"El invierno está cerca, aprende cómo cuidar tu piel aquí.",
+        "content": "El aire frío y seco que trae consigo esta época del año puede causar que la piel, especialmente la de tu rostro –que es la más expuesta– quede vulnerable a los elementos, dejando tu cutis irritado y con resequedad. Y esto no solo ocurre al aire libre, ya que la exposición a estufas y otros tipos de calefacción también puede resultar dañina para tu rostro. Las buenas noticias son que existen varias formas de combatir el impacto de los elementos en tu piel y disfrutar de un rostro terso, suave y resplandeciente todo el año, independiente de lo que diga el termostato. ",
+        "autor": {
+                "photo":"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+                "name": "Florencia Silva",
+                "occupation": "Cosmetóloga y maquilladora profesional",
+                "description":"Cras lectus est, blandit non dapibus sed, malesuada bibendum tellus. Suspendisse aliquam orci nec nibh mollis, in eleifend elit cursus."
+            }
+    },
+    {
+        "id": 2,
+        "photo": "https://images.unsplash.com/photo-1574621100236-d25b64cfd647?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "date" :"Junio 08, 2022",
+        "title" :"¿Tu pelo se vuelve loco?",
+        "excerpt" :"Aquí mis recomendados para manejar tu pelo ",
+        "content": "3 in 1 leave in de Sun Bum, Es un acondicionador sin enjuague 3 en 1 para desenredar, acondicionar y proteger tu pelo, también te ayuda a aumentar el brillo, a controlar el encrespamiento y a prevenir las puntas abiertas, puedes usarlo sobre el pelo húmedo o seco. Hydro Nutri Detang Conditioner (equave) Revlon Professional, Un acondicionador bifásico ligero, sin enjuague, que nutre, hidrata y te ayuda a desenredar, tiene filtro UV y es ideal para pelo seco y dañado, también se puede aplicar sobre el pelo húmedo o seco.",
+        "autor": {
+                "photo":"https://images.unsplash.com/photo-1563306406-e66174fa3787?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+                "name": "Alejandra Garrido",
+                "occupation": "Estilista - Color, Botox, Alisado",
+                "description": "Phasellus rutrum pharetra nisl at tincidunt. Morbi ut justo nec odio accumsan congue. Nulla sed dolor tellus."
+            }
+    },
+    {
+        "id": 3,
+        "photo": "https://images.unsplash.com/photo-1529946179074-87642f6204d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "date" :"Junio 17,2022",
+        "title" :"¿Acabas de tinturar tu cabello?",
+        "excerpt" :"Aprende a cuidar tu cabello tras cada tratamiento de coloración.",
+        "content": "Al tinturar tu cabello, la cutícula capilar se abre para que pueda ser infusionada por el color, y si lavas tu melena en el momento en que llegas a tu casa después de tu tinturación, esta cutícula podría seguir abierta, lo que provocará que una parte importante del color se vaya por tu desagüe. Así que mientras más esperes, más tiempo tendrá el color para aferrarse a tu cabello. De todas formas, no olvides seguir las recomendaciones de tu peluquero, en caso, por ejemplo, de que tengas un cuero cabelludo sensible.",
+        "autor": {
+                "photo":"https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+                "name": "Francisca Arévalo",
+                "occupation": "Estilista Capilar",
+                "description": "Fusce malesuada ante maximus metus tempus, eget tristique justo vestibulum. Pellentesque et urna ut quam viverra lacinia."
+            }
+    }
+  ]

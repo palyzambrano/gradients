@@ -1,0 +1,7 @@
+.bt-search {
+    background-color: white;
+    border: none;
+}
+.bt-search svg {
+    fill: red;
+}

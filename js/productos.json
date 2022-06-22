@@ -1,0 +1,231 @@
+[
+    {
+        "id": 1,
+        "name": "Seaplex kit",
+        "brand": "Sea Hair",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/2230091_1_2000x.jpg?v=1610479849",
+        "description": "Kit reestructurante aditivo restaurador, más crema selladora.",
+        "variants": [
+            {
+                "id": 1,
+                "format": "400 ml",
+                "price": "6.290",
+                "product_id": 1
+
+            },
+            {
+                "id": 2,
+                "format": "1000 ml",
+                "price": "8.590",
+                "product_id": 1
+
+            }
+            ],
+        "attributes":"Principalmente sella las escamas de la cutícula aumentando la duración y la calidad del color cosmético en el tiempo, reforzando su intensidad y brillantez.", 
+        "how_to_use":"Verter en un cuenco no metálico un mínimo de 50 ml de color con la cantidad necesaria de agua oxigenada y 3,5 ml de Aditivo Restaurador Fase 1. Después de enjuagar el tratamiento técnico solo con agua, aplicar al cabello y puntas, masajee y peine. Dejar actuar durante 5 minutos, luego enjuagar"
+    },
+    {
+        "id": 2,
+        "name": "Color Protect Shampoo",
+        "brand": "Mood",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1251078_1_2000x.jpg?v=1617980014",
+        "description": "Shampoo con extractos de Granada para cabello teñido.",
+        "variants": [
+            {
+                "id": 3,
+                "format": "400 ml",
+                "price": "6.290",
+                "product_id": 2
+
+            },
+            {
+                "id": 4,
+                "format": "1000 ml",
+                "price": "8.590",
+                "product_id": 2
+
+            }
+            ],
+        "attributes":"Limpia delicadamente el cabello y el cuero cabelludo. Aporta sustancias emolientes e hidratantes. Protege y aumenta la duración del color.", 
+        "how_to_use":"Unta el Shampoo en tus manos, y luego masajea tu cuero cabelludo con las yemas de tus dedos."
+    },
+    {
+        "id": 3,
+        "name": "Shampoo y Acondicionador Essential Love Curl",
+        "brand": "Davines",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1121038_2000x.jpg?v=1594844260",
+        "description": "Love Curl Cleasing es un shampoo y acondicionador ideal para cabello muy rizado que elimina delicadamente las impurezas. ",
+        "variants": [
+            {
+                "id": 5,
+                "format": "400 ml",
+                "price": "6.290",
+                "product_id": 3
+
+            }
+            ],
+        "attributes": "Gracias a su fórmula enriquecida con Extracto de Almendras y Tensioactivos Derivados del Azúcar dejan el cabello hidratado y suave.", 
+        "how_to_use": "Aplicar sobre el cuero cabelludo y cabello mojado masajeando suavemente. Dejar actuar durante 5 minutos y enjuagar."
+    },
+    {
+        "id": 4,
+        "name": "Shampoo Essential Volu",
+        "brand": "Davines",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1120773_1_2000x.jpg?v=1611347258",
+        "description": "Volu Shampoo es un shampoo que limpia delicadamente el cabello dejándolo suave y ligero.",
+        "variants": [
+            {
+                "id": 6,
+                "format": "250 ml",
+                "price": "11.990",
+                "product_id": 4
+            },
+            {
+                "id": 7,
+                "format": "1000 ml",
+                "price": "24.990",
+                "product_id": 4
+
+            }
+            ],
+        "attributes": "Gracias a su fórmula enriquecida con Nabo de Caprauna y Pantenol brinda cuerpo y volumen al cabello.", 
+        "how_to_use": "Aplicar sobre el cabello húmedo, masajear suavemente hasta crear espuma y enjuagar. Si es necesario repetir la aplicación."
+    },
+    {
+        "id": 5,
+        "name": "Acondicionador Essential Momo",
+        "brand": "Davines",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1120743_2000x.jpg?v=1594844223",
+        "description": "Momo Conditioner es un Acondicionador hidratante para cabello seco y deshidratado que hidrata en profundidad. ",
+        "variants": [
+            {
+                "id": 8,
+                "format": "250 ml",
+                "price": "12.990",
+                "product_id": 5
+
+            },
+            {
+                "id": 9,
+                "format": "1000 ml",
+                "price": "31.990",
+                "product_id": 5
+
+            }
+            ],
+        "attributes":"Gracias a su fórmula enriquecida con Melón Cartucciaru deja el cabello suave, desenredado y sedoso.", 
+        "how_to_use":" Aplicar sobre el cabello secado con toalla después del Shampoo Momo. Dejar actuar durante 2-5 minutos, peinar y enjuagar. Proceder con el peinado."
+    },
+    {
+        "id": 6,
+        "name": "Primaria Loción Intensiva",
+        "brand": "Elgon",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1250307_2000x.jpg?v=1653596937",
+        "description": "Esta loción intensiva contra la pérdida de cabello y agotamiento.",
+        "variants": [
+            {
+                "id": 10,
+                "format": "7 ml",
+                "price": "1.190",
+                "product_id": 6
+
+            }
+            ],
+        "attributes": "Estimula el crecimiento celular, inhibiendo el crecimiento de los microorganismos que causan la descamación cutánea y reduce las irritaciones (picazón, seborrea, inflamaciones cutáneas).", 
+        "how_to_use":"Distribuir gota a gota sobre el cuero cabelludo seco o secado con toalla y masajear para favorecer la absorción. No enjuagar (1 ampolla a la semana durante 1-2 meses)."
+    },
+    {
+        "id": 7,
+        "name": "Shampoo Argán Supremo",
+        "brand": "Elgon",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1251001_2000x.jpg?v=1652991291",
+        "description": "Shampoo Supremo con Argán con propiedades hidratantes y antioxidantes que limpia y da luminosidad a todo tipo de cabello.",
+        "variants": [
+            {
+                "id": 11,
+                "format": "250 ml",
+                "price": "6.990",
+                "product_id": 7
+
+            }
+            ],
+        "attributes":"Gracias al Aceite de Argán: proporciona un efecto emoliente, nutritivo y da brillo al cabello. Filtro UV: protege el cabello de los rayos solares. ", 
+        "how_to_use": "Aplicar sobre el cabello húmedo, masajear delicadamente y enjuagar. Repetir si es necesario."
+    },
+    {
+        "id": 8,
+        "name": "Intense Repair Oil",
+        "brand": "Mood",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1251086_1_2000x.jpg?v=1612798291",
+        "description": "Aceite reparador con vitaminas.",
+        "variants": [
+            {
+                "id": 12,
+                "format": "100 ml",
+                "price": "8.990",
+                "product_id": 8
+
+            }
+            ],
+        "attributes": "Ideal para el cabello débil y estropeado, enriquecido con extracto de arándanos rojos el cual protege tu cabello de la deshidratación dejándolo increíblemente suave y luminoso.", 
+        "how_to_use": "Aplicar sobre el cabello lavado y secado con toalla. Distribuir el producto de largos a puntas masajeando suavemente"
+    },
+    {
+        "id": 9,
+        "name": "Tratamiento Efecto Btx",
+        "brand": "Bonmetique",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1710190_4548dfb1-b48e-4ec1-8db4-a4c8c7f8d58f_2000x.jpg?v=1650549488",
+        "description": "Tratamiento con una exclusiva fórmula de Ácido Hialurónico ",
+        "variants": [
+            {
+                "id": 13,
+                "format": "300 ml",
+                "price": "8.990",
+                "product_id": 9
+
+            }
+            ],
+        "attributes": "Rellena la fibra capilar dejando el cabello intensamente nutrido y reparado. Contiene aminoácidos que devuelven la salud y fuerza al cabello.", 
+        "how_to_use": "Luego de lavar el cabello con Shampoo Efecto B•T•X Bonmetique, aplicar tratamiento Efecto B•T•X sobre el cabello húmedo secado a toalla. Masajear los largos y puntas. Dejar actuar entre 10 - 15 minutos, peinar el cabello. Lavar con abundante agua tibia y secar el cabello de manera habitual."
+    },
+    {
+        "id": 10,
+        "name": "Shampoo Barra Dede",
+        "brand": "Davines",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1121366_2000x.jpg?v=1640119994",
+        "description": "Dede Essential Shampoo Bar es un shampoo en barra de limpieza diaria que hidrata en profundidad todo tipo de cabello.",
+        "variants": [
+            {
+                "id": 14,
+                "format": "75 ml",
+                "price": "14.990",
+                "product_id": 10
+
+            }
+            ],
+        "attributes":"Su principio activo de Extracto de Apio Rojo proporciona una espuma cremosa que aporta suavidad, brillo y textura.", 
+        "how_to_use":"Humedece la barra de shampoo con agua, frótala entre las manos para crear espuma y aplícala sobre el cabello mojado. Enjuaga bien y repite si es necesario."
+    },
+    {
+        "id": 11,
+        "name": "Oleo Bio Liss ",
+        "brand": "Bonmetique",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1710333_2000x.jpg?v=1650550450",
+        "description": "Aceite de tratamiento diario para controlar el volumen y reducir el frizz al instante.",
+        "variants": "30 ml",
+        "price": "5.590",
+        "attributes": "Fortalece las puntas débiles y castigadas, dejando el cabello con extremo brillo y suavidad. Sin efecto graso.", 
+        "how_to_use": "Aplicar sobre el cabello húmedo secado a toalla. Masajear los largos y puntas. Dejar actuar entre 5 -10 minutos, enjuagar bien y luego peinar."
+    },
+    {
+        "id": 12,
+        "name": "Sérum Rizos Fijador y Brillo",
+        "brand": "Mood",
+        "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1251089_2000x.jpg?v=1595000369",
+        "description": "Serum Light de Mood es un sérum iluminador ",
+        "variants": "100 ml",
+        "price": "7.990",
+        "attributes": "Contiene molécula filmógena: que crea una película sobre el cabello, protegiéndolo y dándole brillo. Dermatológicamente comprobado, sin parabenos y cruelty free.", 
+        "how_to_use": "Aplicar una pequeña cantidad de producto sobre el cabello húmedo y proceder con el peinado. Para una mayor definición del rizo se puede aplicar sobre el cabello seco."
+    }
+  ]
