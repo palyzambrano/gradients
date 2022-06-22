@@ -19,8 +19,7 @@ var descriptionEl = $('#description');
 descriptionEl.text(productoObject.description);
 
 var attributesEl = $('#attributes');
-attributesEl.text(productoObject.attributes)
+attributesEl.text(productoObject.attributes);
 
-
-var useEl = $('#howUse')
-useEl.text(productoObject.how_to_use)
+var useEl = $('#howUse');
+useEl.text(productoObject.how_to_use);
