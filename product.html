@@ -13,18 +13,23 @@
     </header>
     <main>
         <section class="container-fluid">
-            <div class="row my-auto">
+            <div class="row my-auto align-items-center justify-content-around">
+                <!--Product Image-->
                 <figure class="col-md-6">
-                    <img id="photo" height="500" width="500" />
+                    <img id="photo" class="m-auto" height="500" width="500"/>
                 </figure>
-                <div class="col-md-6">
-                    <span id="brand"></span>
-                    <h3 id="title"></h3>
+                <!--Data Product-->
+                <div class="col-md-6 wrapperPdp">
+                    <span id="brand" class="pdpBrand"></span>
+                    <h3 id="title" class="pdpName"></h3>
                     <p id="description"></p>
                     <div>
                         <p>
-                            <a class="" data-bs-toggle="collapse" href="#collapseProperties" role="button" aria-expanded="false" aria-controls="collapseProperties">
-                              Propiedades
+                            <a class="pdpCollapse" data-bs-toggle="collapse" href="#collapseProperties" role="button" aria-expanded="false" aria-controls="collapseProperties">
+                                Propiedades 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                                </svg>
                             </a>
                         </p>
                         <div class="collapse" id="collapseProperties">
@@ -32,8 +37,11 @@
                            </div>
                         </div>
                         <p>
-                            <a class="" data-bs-toggle="collapse" href="#collapseUse" role="button" aria-expanded="false" aria-controls="collapseUse">
-                              Modo de uso
+                            <a class="pdpCollapse" data-bs-toggle="collapse" href="#collapseUse" role="button" aria-expanded="false" aria-controls="collapseUse">
+                                Modo de uso
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                                  </svg>        
                             </a>
                         </p>
                         <div class="collapse" id="collapseUse">
