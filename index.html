@@ -10,20 +10,16 @@
 </head>
 <body>
     <header>
-        <!--Content Collapsed-->
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-white p-4">
-                <h5 class="text-dark h4">Collapsed content</h5>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
-            </div>
-        </div>
         <!--Navegacion-->
         <nav class="navbar bg-white px-4">
             <div class="container-fluid">
-                <!--Button Collapsed-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <p>
+                        <a class="" data-bs-toggle="collapse" href="#collapseNav" role="button" aria-expanded="false" aria-controls="collapseNav"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                              </svg>
+                        </a>
+                    </p>
                 <!--Logo Brand-->
                 <a class="navbar-brand" href="#">
                     <img src="./img/gradients.svg" alt="" width="140" height="54" class="d-inline-block align-text-top">
@@ -66,14 +62,20 @@
                     </a>
                 </div>
             </div>
+            <!--Menú Descplegable-->
+            <div class="collapse" id="collapseNav">
+                <ul>
+                    <li>
+                        <a class="itemMenu" href="./catalog.html">Productos</a>
+                    </li>
+                    <li>
+                        <a class="itemMenu" href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="container-fluid">
-            <div class="row" id="contentPost">
-
-            </div>
-        </section>
     </main>
     <footer>
         

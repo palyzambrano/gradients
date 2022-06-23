@@ -10,15 +10,19 @@ $(document).ready(function () {
     }
 
     function crearCardProducto(data) {
-        var brand = $('<h6 class="card-text">').text(data.brand);
-        var title = $('<h4 class="card-title">').text(data.name);
+        var brand = $('<h6 class="card-text">').text(data.brand)
+            .attr('class','cardBrand');
+        var title = $('<h4 class="card-title">').text(data.name)
+            .attr('class','cardName');
         var photo = $('<img>')
+            .attr('class','cardImg')
             .attr('src', data.photo)
             .attr('height', 300)
             .attr('width', 300);
-        var price = crearTagPrecio(data.variants);
+        var price = crearTagPrecio(data.variants)
+            .attr('class','cardPrice');
         var cardProduct = $('<a>')
-            .attr('class', 'card col-md-3 m-3 p-2')
+            .attr('class', 'cardProduct col-md-3 m-3 p-2')
             .attr('href', 'product.html?producto=' + encodeURIComponent(JSON.stringify(data)))
             .append(photo)
             .append(brand)

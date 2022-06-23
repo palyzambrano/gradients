@@ -2,14 +2,67 @@
 
 body{
     font-family:  'Montserrat', sans-serif;
+    padding: 0 40px;
 }
+
 .bt-search {
     background-color: white;
     border: none;
 }
+
 .bt-search svg {
     fill: #2671C1;
 }
+/* Start Header */
+li {
+    list-style: none;
+}
+.itemMenu {
+    text-decoration: none;
+    color: #2671C1;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* End Header */
+
+/* Start Product Card */
+.cardProduct {
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.07);
+    text-decoration: none;
+}
+
+.cardImg {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cardBrand {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2671C1;
+    padding-left: 10px;
+}
+
+.cardName {
+    font-size: 18px;
+    font-weight: 500;
+    color: #121212;
+    text-transform: uppercase;  
+    height: 40px;
+    padding-left: 10px;
+}
+
+.cardPrice {
+    font-size: 18px;
+    font-weight: 300;
+    color: #121212;
+    padding-left: 10px;
+}
+/* End Product Card */
 
 /* Start Product Page */
 .wrapperPdp {
@@ -37,6 +90,48 @@ body{
 }
 /* End Product Page */
 
+/* Start Post Card */
+.imgPost {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.datePost {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2671C1;
+}
+
+.titlePost {
+    font-size: 22px;
+    font-weight: 500;
+    color: #121212;
+    height: 60px;
+    margin: 8px  0;
+}
+
+.excerptPost {
+    font-weight: 300;
+    font-size: 18px;
+    color: #121212;
+    padding-bottom: 10px;
+}
+
+.btnPost {
+    background-color: #E6F2FF;
+    color: #2671C1;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* End Post Card */
+
 /* Start Post Page */
 .datePostPage {
     font-size: 18px;
@@ -60,5 +155,54 @@ body{
 
 .contentPost {
     font-weight: 300;
+}
+
+.titleAuthor {
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+    margin-top: 30px;
+}
+
+.authorPostPage {
+    background-color: #E6F2FF;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.authorPostPage img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 30px;
+}
+
+.authorPostPage div {
+    padding: 30px;
+}
+
+.authorPostPage div h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2671C1;
+    margin: 0;
+}
+
+.authorPostPage div span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #2671C1;
+}
+
+.authorPostPage div p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #121212;
+    margin-top: 20px;
 }
 /* End Post Page */

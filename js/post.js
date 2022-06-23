@@ -19,3 +19,15 @@ excerptEl.text(postObject.excerpt);
 
 var contentEl = $('#content');
 contentEl.text(postObject.content);
+
+var authorPhoto = $('#authorPhoto');
+authorPhoto.attr('src', postObject.author.photo);
+
+var authorName = $('#authorName');
+authorName.text(postObject.author.name);
+
+var authorOccupation = $('#authorOccupation');
+authorOccupation.text(postObject.author.occupation);
+
+var authorDescription = $('#authorDescription');
+authorDescription.text(postObject.author.description);
