@@ -67,6 +67,7 @@ li {
 /* Start Product Page */
 .wrapperPdp {
     width: 400px;
+    padding-top: 60px;
 }
 
 .pdpBrand {
@@ -88,6 +89,13 @@ li {
     color: #2671C1;
     margin: 10px 0;
 }
+
+/* Start Section Comment */
+
+/* End Section Comment */
+
+
+
 /* End Product Page */
 
 /* Start Post Card */

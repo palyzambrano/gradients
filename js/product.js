@@ -23,3 +23,26 @@ attributesEl.text(productoObject.attributes);
 
 var useEl = $('#howUse');
 useEl.text(productoObject.how_to_use);
+
+function makeCommentBlock(username, content) {
+    var listItemEl = $('<li>');
+    var usernameEl = $('<h4>');
+    var contentEl = $('<p>');
+
+    usernameEl.text(username);
+    contentEl.text(content);
+
+    listItemEl.append(usernameEl).append(contentEl);
+    $('#commentsList').append(listItemEl);
+}
+
+//Toma el valor del input "comentarios" y lo refleja
+$('#mostrarComentario').click(function () {
+    var contentTextAreaEl = $('#text');
+    var usernameInputEl = $('#inputUser');
+
+    makeCommentBlock(usernameInputEl.val(), contentTextAreaEl.val());
+
+    contentTextAreaEl.val('');
+    usernameInputEl.val('');
+});
