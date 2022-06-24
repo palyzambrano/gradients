@@ -63,9 +63,12 @@ function makeCommentBlock(username, content) {
 
     var listItemEl = $('<li>')
         .attr('class','wrappercomment');
-    var usernameEl = $('<h4>');
-    var contentEl = $('<p>');
-    var dateEl = $('<span>');
+    var usernameEl = $('<h4>')
+        .attr('class','titlecomment');
+    var contentEl = $('<p>')
+        .attr('class','comment');
+    var dateEl = $('<p>')
+        .attr('class','dateComment');
 
     usernameEl.text(username);
     contentEl.text(content);

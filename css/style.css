@@ -148,19 +148,25 @@ li {
 .wrappercomment {
     background-color: #E6F2FF;
     color: #2671C1;
-    padding: 20px;
+    padding: 10px 24px;
     margin: 10px 0;
     border-radius: 20px;
 }
 
-.wrappercomment h4 {
+.titlecomment {
     font-size: 16px;
     font-weight: 500;
 }
 
-.wrappercomment p {
+.comment {
     font-size: 16px;
     font-weight: 300;
+}
+
+.dateComment {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: end;
     margin: 0;
 }
 
