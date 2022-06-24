@@ -74,7 +74,16 @@ li {
 }
 /* End Window pop-up */
 
-/* Start Product Card */
+/* Start Index */
+
+.bannerBlog {
+    background: url(../img/blog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+/* End Index*/
 
 /* Start Product Card */
 .cardProduct {

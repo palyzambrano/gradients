@@ -8,3 +8,22 @@ function publicity() {
 }
 
 window.setTimeout(publicity, 6000);
+
+$('.owl-carousel').owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 1000,
+    loop: true,
+    margin: 10,
+    nav: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
