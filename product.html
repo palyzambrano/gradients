@@ -118,18 +118,20 @@
             </div>
         </section>
         <!--Section Product Comment-->
-        <section class="container-fluid">
+        <section class="container-fluid mb-5">
             <div class="row justify-content-center">
-                <h4>Comentarios</h4>
-                <ul class="col-md-7" id="commentsList"></ul>
-                <form class="col-md-7">
-                    <div class="d-flex flex-column justify-content-end">
-                        <h4>Que te pareció este producto?</h4>
-                        <input type="text" placeholder="Ingresa tu nombre" id="inputUser">
-                        <textarea placeholder="Dejanos tu opinion" type="text" id="text"></textarea>
-                        <button id="mostrarComentario" type="button" >Publicar</button>
-                    </div>   
-                </form>
+                <div class="col-md-7">
+                    <h4 class="titleForm">Comentarios</h4>
+                    <ul id="commentsList"></ul>
+                    <form>
+                        <div class="d-flex flex-column justify-content-end">
+                            <h4 class="labelComment">Que te pareció este producto?</h4>
+                            <input class="inputName" type="text" placeholder="Ingresa tu nombre" id="inputUser">
+                            <textarea class="inputName" placeholder="Dejanos tu opinion" type="text" id="text"></textarea>
+                            <button class="btnComment" id="mostrarComentario" type="button" >Publicar</button>
+                        </div>   
+                    </form>
+                </div>
             </div>
         </section>
     </main>

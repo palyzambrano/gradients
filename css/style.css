@@ -91,7 +91,62 @@ li {
 }
 
 /* Start Section Comment */
+.titleForm {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2671C1;
+}
 
+.labelComment {
+    font-size: 18px;
+    font-weight: 300;
+    color: #121212;
+}
+
+.inputName {
+    border: #2671C1 2px solid;
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin: 10px 0;
+}
+
+.btnComment {
+    border: #2671C1 2px solid;
+    border-radius: 25px;
+    background-color: #E6F2FF;
+    color: #2671C1;
+    padding: auto;
+    width: 200px;
+    height: 45px;
+}
+
+.btnComment:hover {
+    background-color: #2671C1;
+    color: #FFF;
+}
+
+.wrappercomment {
+    background-color: #E6F2FF;
+    color: #2671C1;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.wrappercomment h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrappercomment p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+ }
 /* End Section Comment */
 
 

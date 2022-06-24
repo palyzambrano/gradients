@@ -5,7 +5,6 @@ var producto = link.searchParams.get('producto');
 
 var productoObject = JSON.parse(producto);
 
-
 var photoEl = $('#photo');
 photoEl.attr('src', productoObject.photo);
 
@@ -24,8 +23,10 @@ attributesEl.text(productoObject.attributes);
 var useEl = $('#howUse');
 useEl.text(productoObject.how_to_use);
 
+//Crea el bloque con el comentario
 function makeCommentBlock(username, content) {
-    var listItemEl = $('<li>');
+    var listItemEl = $('<li>')
+        .attr('class','wrappercomment');
     var usernameEl = $('<h4>');
     var contentEl = $('<p>');
 
