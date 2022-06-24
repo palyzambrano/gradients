@@ -90,6 +90,26 @@ li {
     margin: 10px 0;
 }
 
+#variants {
+    display: flex;
+    gap: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.chipVariante {
+    background-color: #E6F2FF;
+    color: #2671C1;
+    cursor: pointer;
+    border: 2px solid #E6F2FF;
+    padding: 8px 16px;
+    border-radius: 25px;
+}
+
+.chipVarianteActive {
+    border-color: #2671C1;
+}
+
 /* Start Section Comment */
 .titleForm {
     font-size: 18px;

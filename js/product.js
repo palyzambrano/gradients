@@ -14,6 +14,37 @@ brandEl.text(productoObject.brand);
 var titleEl = $('#title');
 titleEl.text(productoObject.name);
 
+var variantsEl = $('#variants');
+productoObject.variants.forEach(function (variante, indice) {
+    var priceEl = $('#price');
+    var chipEl;
+
+    if (indice === 0) {
+        // Primer variante debe estar pre-seleccionada
+        chipEl = $('<li class="chipVariante chipVarianteActive">').text(variante.format);
+        
+        priceEl.text('$' + variante.price);
+    } else {
+        chipEl = $('<li class="chipVariante">').text(variante.format);
+    }
+
+    // Al hacer click quiero que se coloque solo la variante seleccionada
+    // como active usando una clase y todas las demas deben volver a la 
+    // clase CSS inicial
+    chipEl.on('click', function () {
+        // Se aplica una sola clase a todos los elementos de chip
+        $('.chipVariante').attr('class', 'chipVariante');
+        // A "ESTE" elemento de chip se le aplican 2 clases incluyendo
+        // la clase active
+        chipEl.attr('class', 'chipVariante chipVarianteActive');
+
+        // Cambiamos el precio seleccionado
+        priceEl.text('$' + variante.price);
+    });
+
+    variantsEl.append(chipEl);
+});
+
 var descriptionEl = $('#description');
 descriptionEl.text(productoObject.description);
 
