@@ -1,6 +1,6 @@
 function publicity() {
     var sale = 'sale.html'
-    var ventana = window.open(sale,"Nueva Ventana","status=yes, resizable=yes, top=150, left=400, width=600, height=600");
+    var ventana = window.open(sale,"Nueva Ventana","status=yes, resizable=yes, top=150, left=450, width=500, height=500");
 
     window.setTimeout(function cerrar() {
         ventana.close();

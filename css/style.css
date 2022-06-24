@@ -5,6 +5,19 @@ body{
     padding: 0 40px;
 }
 
+/* Start Header */
+li {
+    list-style: none;
+}
+
+.itemMenu {
+    text-decoration: none;
+    color: #2671C1;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .bt-search {
     background-color: white;
     border: none;
@@ -13,18 +26,55 @@ body{
 .bt-search svg {
     fill: #2671C1;
 }
-/* Start Header */
-li {
-    list-style: none;
-}
-.itemMenu {
-    text-decoration: none;
-    color: #2671C1;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
-}
 /* End Header */
+
+/* Start Window pop-up */
+.bgSale {
+    background-color: #E6F2FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperSale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+}
+
+.icon {
+    fill: #2671C1;
+}
+
+.titleSale {
+    color: #2671C1;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+
+.textSale {
+    color: #2671C1;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.subscriptionSale{
+    font-size: 16px;
+    font-weight: 300;
+    color: #767676;
+    text-align: center;
+    margin-top: 30px;
+}
+/* End Window pop-up */
+
+/* Start Product Card */
 
 /* Start Product Card */
 .cardProduct {
