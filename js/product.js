@@ -104,3 +104,6 @@ $('#collapseUse').on('show.bs.collapse', function () {
 $('#collapseUse').on('hide.bs.collapse', function () {
     $('#collapseUseSvg').css('transform', 'rotate(0deg)').css('transition', '.3s');
 });
+
+const myPanzoom = new Panzoom(document.querySelector("#myPanzoom"), {
+  });
