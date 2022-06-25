@@ -89,6 +89,7 @@ $('#mostrarComentario').click(function () {
     usernameInputEl.val('');
 });
 
+// Rota iconos de btn collapse
 $('#collapseProperties').on('show.bs.collapse', function () {
     $('#collapsePropertiesSvg').css('transform', 'rotate(-180deg)').css('transition', '.3s');
 });

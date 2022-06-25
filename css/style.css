@@ -2,6 +2,9 @@
 
 body{
     font-family:  'Montserrat', sans-serif;
+}
+
+.wrapperContent {
     padding: 0 40px;
 }
 
@@ -75,13 +78,82 @@ li {
 /* End Window pop-up */
 
 /* Start Index */
+/*Promotion*/
+.wrapperPromotion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.imgPromotion {
+    width: 640px;
+    height: auto;
+}
+
+.boxPromotion {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6F2FF;
+    margin-left: -50px;
+}
+
+.boxPromotion h4 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2671C1;
+    margin-top: 10px;
+}
+
+.boxPromotion p {
+    color: #2671C1;
+    font-size: 18px;
+    font-weight: 300;
+    width: 50%;
+    text-align: center;
+}
+
+/*Banner Index*/
 .bannerBlog {
     background: url(../img/blog.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bannerBlog div {
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.bannerBlog div h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2671C1;
+}
+.bannerBlog div p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #2671C1;
+}
+.bannerBlog div a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: #2671C1 2px solid;
+    color: #2671C1;
+    border-radius: 25px;
 }
 /* End Index*/
 

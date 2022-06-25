@@ -11,7 +11,7 @@ window.setTimeout(publicity, 6000);
 
 $('.owl-carousel').owlCarousel({
     autoplay: true,
-    autoplayTimeout: 1000,
+    autoplayTimeout: 1500,
     loop: true,
     margin: 10,
     nav: false,
@@ -20,10 +20,10 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
-            items:5
+            items:4
         }
     }
 });
