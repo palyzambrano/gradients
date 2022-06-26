@@ -580,3 +580,10 @@ ul{
     color: #FFF;
 }
 /* End Register Page */
+/* Footer */
+.wrapperFooter {
+    background-color: #2671C1;
+    color: #FFF;
+    height: 300px;
+    margin-top: 100px;
+}
