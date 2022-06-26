@@ -518,12 +518,29 @@ ul{
 
 /* Start Register Page */
 .containerForm {
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+.boxImg {
+    width: 400px;
+    height: 400px;
+    background-color: #E6F2FF;
+    position: absolute;
 }
 
 .wrapperImg {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.imgRegister{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 90px;
 }
 
 .wrapperForm {
