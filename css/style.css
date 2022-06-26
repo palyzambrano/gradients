@@ -581,9 +581,38 @@ ul{
 }
 /* End Register Page */
 /* Footer */
-.wrapperFooter {
-    background-color: #2671C1;
-    color: #FFF;
-    height: 300px;
+footer {
     margin-top: 100px;
+}
+
+.wrapperFooter {
+    padding: 80px;
+    background-color: #2671C1;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapperFooter ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.wrapperFooter ul li a {
+    color: #E6F2FF;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+.copy {
+    background-color: #19508a;
+    color: #E6F2FF;
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+}
+.copy p {
+    margin: 0;
 }
