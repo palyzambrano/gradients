@@ -15,15 +15,15 @@ $(document).ready(function () {
         },
         messages: {
             name: {
-                required: 'El nombre es obligatorio',
-                minlength: 'El nombre debe tener al menos 3 caracteres'
+                required: '*El nombre es obligatorio*',
+                minlength: '*El nombre debe tener al menos 3 caracteres*'
             },
             email: {
-                required: 'El email es requerido',
-                email: 'El email debe poseer el siguiente formato: abc@mail.com',
+                required: '*El email es requerido*',
+                email: '*El email debe poseer el siguiente formato: abc@mail.com*',
             },
             phone: {
-                required: 'El telefono es obligatorio'
+                required: '*El telefono es obligatorio*'
             }
         }
     });

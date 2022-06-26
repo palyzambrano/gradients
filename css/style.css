@@ -88,15 +88,18 @@ li {
     background-image: url(../img/ondas-uno.svg);
     background-repeat: no-repeat;
 }
+
 .boxContentIntro {
     width: 60%;
     margin-bottom: 50px;
 }
+
 .titlePageIndex {
     font-size: 42px;
     font-weight: 500;
     color: #2671C1;
 }
+
 .contentIntro {
     font-size: 18px;
     font-weight: 300;
@@ -111,6 +114,7 @@ li {
     grid-auto-rows: 300px 300px;
     grid-gap: 10px;
 }
+
 .one {
     background-image: url(../img/intro-uno.png);
     background-position: center;
@@ -185,6 +189,13 @@ li {
     font-weight: 300;
     width: 50%;
     text-align: center;
+}
+.boxPromotion a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: #2671C1 2px solid;
+    color: #2671C1;
+    border-radius: 25px;
 }
 
 /*Banner Index*/
@@ -388,9 +399,6 @@ ul{
     padding: 0;
  }
 /* End Section Comment */
-
-
-
 /* End Product Page */
 
 /* Start Post Card */
@@ -431,8 +439,6 @@ ul{
     font-weight: 500;
     text-transform: uppercase;
 }
-
-
 /* End Post Card */
 
 /* Start Post Page */
@@ -509,3 +515,68 @@ ul{
     margin-top: 20px;
 }
 /* End Post Page */
+
+/* Start Register Page */
+.containerForm {
+    margin-top: 100px;
+}
+
+.wrapperImg {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapperForm {
+    width: 400px;
+} 
+
+.titleForm{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.wrapperItemForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelForm {
+    color: #2671C1;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.inputForm {
+    border: #2671C1 2px solid;
+    border-radius: 25px;
+    color: #2671C1;
+    padding: 10px;
+}
+
+.error {
+    border-color: red;
+}
+
+#name-error,
+#email-error,
+#phone-error {
+    color: red;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.btnRegister {
+    border: #2671C1 2px solid;
+    border-radius: 25px;
+    color: #2671C1;
+    padding: 10px;
+    background-color: #E6F2FF;
+}
+
+.btnRegister:hover {
+    background-color: #2671C1;
+    color: #FFF;
+}
+/* End Register Page */

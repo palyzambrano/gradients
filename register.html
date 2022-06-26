@@ -48,26 +48,36 @@
             </div>
         </nav>
     </header>
-    <form id="registerForm">
-        <fieldset>
-            <legend>Registrate</legend>
-            <p>
-                <label for="name">Nombre</label>
-                <input id="name" name="name" minlength="3" type="text" required>
-            </p>
-            <p>
-                <label for="email">Correo Electronico</label>
-                <input id="email" type="email" name="email" required>
-            </p>
-            <p>
-                <label for="phone">Telefono</label>
-                <input id="phone" type="text" name="phone">
-            </p>
-            <p>
-                <input class="submit" type="submit" value="Submit">
-            </p>
-        </fieldset>
-    </form>
+    <main>
+        <section class="container-fluid containerForm">
+            <div class="row jusify-content-center align-item-center">
+                <div class="col-md-6 wrapperImg">
+                    <img src="http://via.placeholder.com/400" alt="">
+                </div>
+                <form id="registerForm" class="col-md-6">
+                    <fieldset class="wrapperForm">
+                        <legend class="titleForm">Registrate</legend>
+                        <p>Forma parte de nuestra comunidad</p>
+                        <p class="wrapperItemForm">
+                            <label class="labelForm" for="name">Nombre</label>
+                            <input class="inputForm" id="name" name="name" minlength="3" type="text" required>
+                        </p>
+                        <p class="wrapperItemForm">
+                            <label class="labelForm" for="email">Correo Electronico</label>
+                            <input class="inputForm" id="email" type="email" name="email" required>
+                        </p>
+                        <p class="wrapperItemForm">
+                            <label class="labelForm" for="phone">Telefono</label>
+                            <input class="inputForm" id="phone" type="text" name="phone">
+                        </p>
+                        <p class="wrapperItemForm">
+                            <input class="btnRegister" class="submit" type="submit" value="Submit">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
