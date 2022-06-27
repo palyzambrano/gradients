@@ -25,7 +25,7 @@ $(document).ready(function(){
     }
 
     function cargarPost() {
-        var articleList = 'https://gist.githubusercontent.com/palyzambrano/e956e7130ff40d599d51045bd87f9997/raw/1097c8ec2230fda5bed609b18c3510b954589107/post.json';
+        var articleList = 'https://gist.githubusercontent.com/palyzambrano/e956e7130ff40d599d51045bd87f9997/raw/1549961c15e5287f0d1ca4c3257d6ffb84545d2d/post.json';
         $('#contentPost');
         $.ajax(articleList)
             .done(function (response) {

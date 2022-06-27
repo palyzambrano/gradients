@@ -200,7 +200,6 @@
                 "format": "75 ml",
                 "price": "14.990",
                 "product_id": 10
-
             }
             ],
         "attributes":"Su principio activo de Extracto de Apio Rojo proporciona una espuma cremosa que aporta suavidad, brillo y textura.", 
@@ -212,8 +211,14 @@
         "brand": "Bonmetique",
         "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1710333_2000x.jpg?v=1650550450",
         "description": "Aceite de tratamiento diario para controlar el volumen y reducir el frizz al instante.",
-        "variants": "30 ml",
-        "price": "5.590",
+        "variants": [
+            {
+                "id": 15,
+                "format": "30 ml",
+                "price": "5.590",
+                "product_id": 11
+            }
+            ],
         "attributes": "Fortalece las puntas débiles y castigadas, dejando el cabello con extremo brillo y suavidad. Sin efecto graso.", 
         "how_to_use": "Aplicar sobre el cabello húmedo secado a toalla. Masajear los largos y puntas. Dejar actuar entre 5 -10 minutos, enjuagar bien y luego peinar."
     },
@@ -223,8 +228,14 @@
         "brand": "Mood",
         "photo": "https://cdn.shopify.com/s/files/1/0424/3606/7486/products/1251089_2000x.jpg?v=1595000369",
         "description": "Serum Light de Mood es un sérum iluminador ",
-        "variants": "100 ml",
-        "price": "7.990",
+        "variants": [
+            {
+                "id": 16,
+                "format": "100 ml",
+                "price": "7.990",
+                "product_id": 12
+            }
+            ],
         "attributes": "Contiene molécula filmógena: que crea una película sobre el cabello, protegiéndolo y dándole brillo. Dermatológicamente comprobado, sin parabenos y cruelty free.", 
         "how_to_use": "Aplicar una pequeña cantidad de producto sobre el cabello húmedo y proceder con el peinado. Para una mayor definición del rizo se puede aplicar sobre el cabello seco."
     }

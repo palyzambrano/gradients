@@ -33,7 +33,7 @@ $(document).ready(function () {
     }
 
     function cargarDatos() {
-        var productList = 'https://gist.githubusercontent.com/palyzambrano/e956e7130ff40d599d51045bd87f9997/raw/a332c1da732498857183cb40df1501ad104e4dbf/productos.json';
+        var productList = 'https://gist.githubusercontent.com/palyzambrano/e956e7130ff40d599d51045bd87f9997/raw/737c25424f8b2948f006fe64e96d93de6f9bf8c2/productos.json';
         $('#contentProducts');
         $.ajax(productList)
             .done(function (response) {

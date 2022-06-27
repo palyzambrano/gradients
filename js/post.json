@@ -40,5 +40,47 @@
                 "occupation": "Estilista Capilar",
                 "description": "Fusce malesuada ante maximus metus tempus, eget tristique justo vestibulum. Pellentesque et urna ut quam viverra lacinia."
             }
+    },
+    {
+        "id": 4,
+        "photo": "https://images.unsplash.com/photo-1632380211596-b96123618ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+        "date" :"Mayo 26, 2022",
+        "title" :"Hojas de acacia y aloe vera",
+        "excerpt" :"Beneficios poderosos para nutrir el cabello.",
+        "content": "Con el aloe vera y sus propiedades nunca tendrás que preocuparte por el aspecto seco, roto o dañado de tu cabello. Al incorporarlo con ingredientes como las hojas de acacia que son conocidas como el secreto de peluquería de las mujeres de la India. Y es que estas hojas, cuando se aplican en el cabello, ayudan a mantener el pigmento natural del pelo, atenúa las canas y favorece el crecimiento capilar porque estimula los folículos pilosos.",
+        "autor": {
+            "photo":"https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            "name": "Francisca Arévalo",
+            "occupation": "Estilista Capilar",
+            "description": "Fusce malesuada ante maximus metus tempus, eget tristique justo vestibulum. Pellentesque et urna ut quam viverra lacinia."
+        }
+    },
+    {
+        "id": 5,
+        "photo": "https://i.pinimg.com/564x/3c/c1/78/3cc178524c9a8cfb68cc6ae6fc5a4090.jpg",
+        "date" :"Junio 08, 2022",
+        "title" :"El look baby doll",
+        "excerpt" :"Para un look de femme fatale retro, naïf y wild al mismo tiempo ",
+        "content": "¿Quién no recuerda a Brigitte Bardot cuando evocamos un look baby doll? El toque desenfadado, el causante del aspecto salvaje de este look, es tan rock y tan hippie chic que nos traslada a Woodstock y a los años setenta. Lo mismo que nos ocurre con el peinado corto y voluminoso de Marilyn Monroe, el baby doll desenfadado se ha convertido en un look icónico, que no podemos olvidar, incluso medio siglo más tarde.",
+        "autor": {
+                "photo":"https://images.unsplash.com/photo-1563306406-e66174fa3787?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+                "name": "Alejandra Garrido",
+                "occupation": "Estilista - Color, Botox, Alisado",
+                "description": "Phasellus rutrum pharetra nisl at tincidunt. Morbi ut justo nec odio accumsan congue. Nulla sed dolor tellus."
+            }
+    },
+    {
+        "id": 6,
+        "photo": "https://images.unsplash.com/photo-1566616213894-2d4e1baee5d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80",
+        "date" :"Junio 17,2022",
+        "title" :"Arrugas",
+        "excerpt" :"Como tratar de la mejor manera el envejecimiento de la piel.",
+        "content": "Ya saben que es imposible evitar los efectos del paso del tiempo en la piel. Los cambios en la elasticidad, firmeza y tono de la piel son totalmente normal y esperable, y por lo demás, esos signos exteriores reflejan lo reído, vivido y experimentado a lo largo de la vida. Acordemos que no hay nada peor que una persona de 70 años con un rostro de 20 años, ¿cierto? Lo relevante aquí es envejecer a la par con su edad biológica o mejor aún, más lento que su edad biológica, ganándole al tiempo. Todo en forma natural y no invasiva.",
+        "autor": {
+            "photo":"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            "name": "Florencia Silva",
+            "occupation": "Cosmetóloga y maquilladora profesional",
+            "description":"Cras lectus est, blandit non dapibus sed, malesuada bibendum tellus. Suspendisse aliquam orci nec nibh mollis, in eleifend elit cursus."
+        }
     }
   ]
