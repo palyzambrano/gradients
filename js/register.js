@@ -25,6 +25,19 @@ $(document).ready(function () {
             phone: {
                 required: '*El telefono es obligatorio*'
             }
-        }
+        },
+        submitHandler: function(){
+            $('#successfulRegistration').attr('class', 'backdrop d-flex');
+           
+            $('#name').val('');
+            $('#email').val('');
+            $('#phone').val('');
+        },
+    });
+
+    // Quitar modal
+    $(".btnModalRegister").click(function () {
+        var exit = $('#successfulRegistration');
+        exit.remove();
     });
 });

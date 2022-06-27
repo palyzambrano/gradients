@@ -596,6 +596,41 @@ ul{
     background-color: #2671C1;
     color: #FFF;
 }
+
+.modalRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalRegister svg {
+    fill: #2671C1;
+    margin-top: 40px;
+}
+
+.modalRegister p {
+    color: #2671C1;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.btnModalRegister {
+    color: #2671C1;
+    border: #2671C1 2px solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #FFF;
+}
+
+.btnModalRegister:hover {
+    background-color: #2671C1;
+    color: #FFF;
+}
+
 /* End Register Page */
 /* Footer */
 footer {
@@ -632,4 +667,23 @@ footer {
 }
 .copy p {
     margin: 0;
+}
+
+.backdrop {
+    align-items: center;
+    background-color: #12121272;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 0 auto;
+    padding: 16px;
+    width: 400px;
 }
